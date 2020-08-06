@@ -27,7 +27,7 @@ data_item2 <- data.frame("Nama Produk"=names(data_item2), "Jumlah"=data_item2, r
 
 #### saved in the `bottom10_item_retail.txt` file.
 
-write.csv(data_item, file="data_output/bottom10_item_retail.txt")
+write.csv(data_item2, file="data_output/bottom10_item_retail.txt")
 
 
 ### Get a list of all product package combinations with strong correlations
