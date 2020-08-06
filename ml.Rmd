@@ -85,7 +85,7 @@ data_item2
 The results are saved in the `bottom10_item_retail.txt` file.
 
 ```{r}
-write.csv(data_item, file="data_output/bottom10_item_retail.txt")
+write.csv(data_item2, file="data_output/bottom10_item_retail.txt")
 ```
 
 
